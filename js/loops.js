@@ -23,6 +23,10 @@
 // }
 
 
+//  console.table(personAge)
+
+// FOR, WHILE & DO LOOPS -------------------------------------------------------------------------
+
 // let personAge = [
 //     {name: 'Sophia', age: 39},
 //     {name: 'Trey', age: 28},
@@ -44,6 +48,39 @@
 //    }
 //  }
 
-//  console.table(personAge)
+// let text = '';
+// let i = 0;
 
- 
+// do {
+//     text = text + ' ' + i;
+//     i ++;
+// }
+// while (i < 10);
+
+// console.log(text)
+
+// let text = '';
+// let fruits = ['apple', 'grapes', 'banana'];
+// let i = 0;
+
+// while (fruits[i]) {
+//     text = text + ' ' + fruits[i];
+//     i ++;
+// }
+
+// console.log(text)
+
+// let text = 'I like';
+// let fruits = ['apples', 'grapes', 'bananas'];
+// let i = 0;
+
+// for (;fruits[i];) {
+//     text = text + ' ' + fruits[i];
+//     i ++;
+// }
+
+// console.log(text)
+
+// I DON'T QUITE UNDERSTAND THE ABOVE YET <-------------------------------------------------------------
+
+
