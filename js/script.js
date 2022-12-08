@@ -21,57 +21,29 @@
 //     console.log(`I am ${ages[i] - 2} years old today`)
 // }
 
-// let personAge = [ 
-//     {name: 'Person1', age: 26}, 
-//     {name: 'Person2', age: 12}, 
-//     {name: 'Person3', age: 39},
+// LOOPS -----------------------------------------------------------------------------
 
-// ];
+// let personAge = [
+//     {name: 'Sophia', age: 39},
+//     {name: 'Trey', age: 28},
+//     {name: 'Tulo', age: .10},
+//     {name: 'Aaliyah', age: 16},
+//     {name: 'Jamal', age: 3},
+//     {name: 'Billiam', age: 28},
+//     {name: 'Trish', age: 45},
+//     {name: 'Sosa', age: 21},
+// ]
 
-// for (let i = 0; i < personAge.length; i ++) {
-//     if (personAge[i].age < 19 && personAge[i].age > 13) {
-//     console.log(personAge[i].name + " is a teenager.");
-// } else if (personAge[i].age < 13) {
-//     console.log(personAge[i].name + " is a child.");
-// } else {
-//     console.log(personAge[i].name + " is an adult.");
-// }
-// }
+//  for (let i = 0; i < personAge.length; i ++) {
+//    if (personAge[i].age < 19 && personAge[i].age > 13) {
+//       console.log(`${personAge[i].name} is a teenager.`);
+//    } else if (personAge[i].age < 13) {
+//       console.log(`${personAge[i].name} is a child.`);
+//    } else {
+//       console.log(`${personAge[i].name} is an adult.`);
+//    }
+//  }
 
-// let i = 1;
+//  console.table(personAge)
 
-// while (i < 5) {
-//     console.log(i);
-//     i ++;
-// }
-
-// let ia = 1;
-
-// do {
-//     console.log(ia);
-//     ia ++;
-// }
-//   while (ia < 5)
-
-// let fruits = ['apple', 'orange', 'grape'];
-// let text = '';
-// let i = 0;
-
-// while (fruits[i]) {
-//     text = text + ' ' + fruits[i];
-//     i ++;;
-// }
-
-// console.log(text)
-
-// Have never seen this before in my life: ************************************
-// let fruits = ['apple', 'orange', 'grape'];
-// let text = '';
-// let i = 0;
-
-// for (;fruits[i];) {
-//     text = text + ' ' + fruits[i];
-//     i ++;
-// }
-
-// console.log(text)
+ 
