@@ -70,17 +70,6 @@
 
 // console.log(text)
 
-// let text = 'I like';
-// let fruits = ['apples', 'grapes', 'bananas'];
-// let i = 0;
 
-// for (;fruits[i];) {
-//     text = text + ' ' + fruits[i];
-//     i ++;
-// }
-
-// console.log(text)
-
-// I DON'T QUITE UNDERSTAND THE ABOVE YET <-------------------------------------------------------------
 
 
