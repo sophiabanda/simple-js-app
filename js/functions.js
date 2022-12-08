@@ -56,15 +56,17 @@
 // function addTwo (number) {
 //     return number + 2;
 // }
-//-------------------------
-// let age = 10;
+// -------------------------
 
-// function getNewAge(age) {
-// age = age + 1;
-//   return age;
-// }
 
-// console.log(getNewAge(age)); // returns 11
-// console.log(age); // returns  10
+let age = 20;
+
+function getNewAge(age) {
+age = age + 1;
+  return age;
+}
+
+console.log(getNewAge(age)); // returns 11
+console.log(age); // returns  10
 
 
