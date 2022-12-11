@@ -59,14 +59,43 @@
 // -------------------------
 
 
-let age = 20;
+// let age = 20;
 
-function getNewAge(age) {
-age = age + 1;
-  return age;
+// function getNewAge(age) {
+// age = age + 1;
+//   return age;
+// }
+
+// console.log(getNewAge(age)); // returns 11
+// console.log(age); // returns  10
+
+
+function dividerTool (divider, divisor) {
+  if (divider === 0 || divisor === 0) {
+    console.log('This tool does not work with 0 as an input. Try another number.')
+  } else {
+    let result = divider/divisor;
+    return result;
+  }
 }
 
-console.log(getNewAge(age)); // returns 11
-console.log(age); // returns  10
+console.log(dividerTool(176, 2));
+console.log(dividerTool(1200, 4));
+console.log(dividerTool(10, 0)); //Why does this give me the console.log but also the undefined? Is it undefined for result?
 
 
+// a function without a return statement
+function add(number1, number2) {
+  console.log(number1 + number2);
+}
+let result2 = add(1, 2);
+console.log(result2) //why does console.log undefined? 
+
+// a function with a return statement
+function multiply(number1, number2) {
+  return number1 * number2;
+}
+let result = multiply(3, 5);
+console.log(result);
+
+//I AM COFUSED AS TO HOW CONSOLE.LOG IS WORKING IN THESE TWO INSTANCES. 
