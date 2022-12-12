@@ -76,34 +76,36 @@ function dividerTool (divider, divisor) {
   } else {
     let result = divider/divisor;
     return result;
+    
   }
 }
 
 console.log(dividerTool(176, 2));
 console.log(dividerTool(1200, 4));
-console.log(dividerTool(10, 0)); //Why does this give me the console.log but also the undefined? Is it undefined for result?
+console.log(dividerTool(100, 0)); //Why does this give me the console.log but also the undefined? Is it undefined for result?
 
 
-// // a function without a return statement
-// function add(number1, number2) {
-//   console.log(number1 + number2);
-// }
-// let result2 = add(1, 2);
-// console.log(result2) //will console.log undefined since result2 is assigned what is returned by add(1, 2) which is undefined. 
-
-// // a function with a return statement
-// function multiply(number1, number2) {
-//   return number1 * number2;
-// }
-// let result = multiply(3, 5);
-// console.log(result);
-
-//PREDEFINED FUNCTIONS ------------------------------------
-console.log('Hello!');
-console.warn('Warning!');
-console.error('Error!');
-
-function runThisLater() {
-  console.log('Hello!');
+// a function without a return statement
+function add(number1, number2) {
+  return number1 + number2;
+  console.log(number1 + number2);
 }
-setTimeout(runThisLater, 1000); // Run this in 1000ms
+let result2 = add(1, 2);
+console.log(result2) //will console.log undefined since result2 is assigned what is returned by add(1, 2) which is undefined. 
+
+// a function with a return statement
+function multiply(number1, number2) {
+  return number1 * number2;
+}
+let result = multiply(3, 5);
+console.log(result);
+
+// //PREDEFINED FUNCTIONS ------------------------------------
+// console.log('Hello!');
+// console.warn('Warning!');
+// console.error('Error!');
+
+// function runThisLater() {
+//   console.log('Hello!');
+// }
+// setTimeout(runThisLater, 1000); // Run this in 1000ms
