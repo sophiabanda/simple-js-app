@@ -70,18 +70,18 @@
 // console.log(age); // returns  10
 
 
-// function dividerTool (divider, divisor) {
-//   if (divider === 0 || divisor === 0) {
-//     return 'This tool does not work with 0 as an input. Try another number.';
-//   } else {
-//     let result = divider/divisor;
-//     return result;
-//   }
-// }
+function dividerTool (divider, divisor) {
+  if (divider === 0) {
+    return 'This tool does not work with 0 as an input. Try another number.';
+  } else {
+    let result = divider/divisor;
+    return result;
+  }
+}
 
-// console.log(dividerTool(176, 2));
-// console.log(dividerTool(1200, 4));
-// console.log(dividerTool(10, 0)); //Why does this give me the console.log but also the undefined? Is it undefined for result?????????
+console.log(dividerTool(176, 2));
+console.log(dividerTool(1200, 4));
+console.log(dividerTool(10, 0)); //Why does this give me the console.log but also the undefined? Is it undefined for result?
 
 
 // // a function without a return statement
